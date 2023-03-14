@@ -1,0 +1,142 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+}
+html{
+  font-size:62.5%;
+}
+body{
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav{
+  width:100%;
+  position:fixed;
+  background-color:var(--main-red);
+}
+#navbar{
+  display:flex;
+  color:var(--main-white);
+  height:6rem;
+justify-content:flex-end;
+  width:98%;
+  align-items:center;
+}
+.click{
+  margin-left:5rem;
+  text-decoration: none;
+  color:var(--main-white)
+}
+#welcome-section{
+width:100%;
+height:100vh;
+font-size:4rem;
+background-color: #000;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+
+}
+#welcome-section h1{
+  color:var(--main-white);
+}
+#welcome-section p{
+  color:var(--main-red);
+  margin-top: -35px;
+}
+
+#projects{
+  background-color: var(--main-blue);
+  padding: 8rem 0 2rem;
+
+}
+#projects h2{
+  text-align: center;
+  color:var(--main-white);
+  text-decoration:underline var(--main-white);
+  margin-bottom: 6rem;
+  font-size: 4.5rem;
+}
+
+
+
+.image img{
+  width:44rem;
+  height: 35rem;
+  text-align: center;
+
+}
+.image{
+  background-color: var(--main-gray);
+  width: 44rem;
+  height: 42rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.code {
+  color: var(--main-gray);
+  transition: color 0.3s ease-out;
+}
+  
+.image:hover .code{
+  color: var(--main-red);
+}
+
+.image p{
+  color:var(--main-white);
+  font-size: 2.3rem;
+}
+    
+
+.work{
+  width:90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+}
+.more {
+  width:15rem;
+  background-color: var(--main-gray);
+  text-align: center;
+  padding: 1.8rem;
+  margin: 6rem auto;
+  display: block;
+  text-decoration: none;
+  color:var(--main-white)
+  
+}
+.more:hover{
+  background-color: var(--main-red);
+  transition-delay: 0.8ms;
+}
+.icono{
+  margin-top: 4rem;
+}
+.icon{
+  color:var(--main-white);
+  text-decoration: none;
+  font-size:3.5rem ;
+  
+}
+#welcome-section .how{
+  color:var(--main-white);
+  font-size: 1.8rem;
+}
+
